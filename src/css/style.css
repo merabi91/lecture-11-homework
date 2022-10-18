@@ -161,3 +161,67 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     line-height: 120%;
     color: #222A36;
 }
+.box-col2{
+    padding-top: 33px;
+    margin-left: 160px;
+}
+.lorem_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.svg{
+    padding-left: 15px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #c4c4c4;
+}
+.svg2{
+    padding-left: 15px;
+    padding-top: 28.33px;
+}
+.last_details{
+    padding-top: 200px;
+}
+.last_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.last_text2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #676CDB;
+}
+.footer{
+    width: 1366px;
+    height: 100px;
+    background: black;
+}
+.footer_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.color_white{
+    color: white
+}
