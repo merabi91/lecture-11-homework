@@ -86,3 +86,34 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+.mid-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.left-text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.year_4.mt-4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #676CDB;
+}
