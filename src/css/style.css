@@ -93,15 +93,32 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     color: #FFFFFF;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
+    top: 743px;
     background-color: black;
-
+    display: flex;
+    align-items: center;
 }
-.test{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+.figma{
+    Width: 64px;;
+    Height: 94px;
+}
+.html{
+    Width:82px;
+    Height:92px;
+}
+.css{
+    Width:76px;
+    Height:84px;
+}
+.sass{
+    Width:110px;
+    Height:86px;
+}
+.react{
+    Width:110px;
+    Height:100px;
 }
 .middle_text{
     font-family: 'Poppins';
@@ -110,16 +127,78 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     font-size: 40px;
     line-height: 180%;
     text-align: center;
+    margin-top: 76px;
     color: #FFFFFF;
 }
-.mid-text{
+.left-text{
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 180%;
     color: #FFFFFF;
+    margin-top: 95px;
 }
+.mid_text2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    transform: rotate(-90.47deg);
+    padding-left: 100px;
+    position: bottom;
+}
+.box_mid{
+    width: 622.03px;
+    height: 286.4px;
+    left: 1021px;
+    top: 1386.05px;
+    background: #676CDB;
+    transform: rotate(90.47deg);
+}
+.box_col{
+    padding-top: 200px;
+}
+.monitor{
+    width: 51.63px;
+    height: 40.91px;
+    left: 758px;
+    top: 1862px;
+}
+.elva{
+    width: 30px;
+    height: 28.8px;
+    left: 1062px;
+    top: 1549.04px;
+}
+.paint{
+    height: 28.13611602783203px;
+    width: 28.520687103271484px;
+    left: 1.31732177734375px;
+    top: 0.56982421875px;
+}
+.mid_box2{
+    width: 288px;
+    height: 288px;
+    left: 1032px;
+    top: 1386px;
+    background: #C4C4C4;
+}
+.mid_text3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #222A36;
+}
+.box_col2{
+    padding-top: 132px;
+    margin-left: 110px;
+}
+
 .year_4{
     font-family: 'Playfair Display';
     font-style: normal;
@@ -128,42 +207,17 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     line-height: 120%;
     color: #676CDB;
 }
-.mid_box2{
-    width: 288px;
-    height: 288px;
-    left: 1032px;
-    top: 1386px;
-    background: #c4c4c4;
+.col-5{
+    margin-top: 100px;
 }
-.box_mid{
+
+.box-mid{
     width: 622.03px;
     height: 286.4px;
-    top: 1386.05px;
     left: 1021px;
+    top: 1386.05px;
     background: #676CDB;
-    transform: rotate(90.47deg);
-    position: bottom;
-}
-.box_col{
-    padding-top: 200px;
-}
-.mid_box2{
-    Width: 288px;
-    Height: 288px;
-    Top: 1386px;
-    Left: 1032px;
-}
-.mid_box3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 120%;
-    color: #222A36;
-}
-.box-col2{
-    padding-top: 33px;
-    margin-left: 160px;
+    transform: rotate(90.47deg)
 }
 .lorem_text{
     font-family: 'Poppins';
@@ -173,9 +227,11 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     line-height: 180%;
     color: #FFFFFF;
     padding-left: 15px;
-    padding-top: 25px;
 }
 .svg{
+    height: 77px;
+    left: 404px;
+    top: 0px;
     padding-left: 15px;
     font-family: 'Playfair Display';
     font-style: normal;
@@ -183,10 +239,16 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     font-size: 100px;
     line-height: 120%;
     color: #c4c4c4;
+    width: 47px;
 }
 .svg2{
     padding-left: 15px;
     padding-top: 28.33px;
+    Width: 26.67px;
+    Height: 23.33px;
+    Top: 31.67px;
+    Left: 33.33px;
+    left: 45.83%;
 }
 .last_details{
     padding-top: 200px;
@@ -198,6 +260,17 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     font-size: 30px;
     line-height: 120%;
     color: #FFFFFF;
+    /* width: 164px;
+    height: 72px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
 }
 .last_text2{
     font-family: 'Playfair Display';
