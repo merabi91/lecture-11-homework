@@ -147,8 +147,9 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     line-height: 120%;
     color: #FFFFFF;
     transform: rotate(-90.47deg);
-    padding-left: 100px;
-    position: bottom;
+    padding-left: 80px;
+    /* padding-top: 100px;
+    position: bottom; */
 }
 .box_mid{
     width: 622.03px;
@@ -157,6 +158,7 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     top: 1386.05px;
     background: #676CDB;
     transform: rotate(90.47deg);
+    margin-left: -50px;
 }
 .box_col{
     padding-top: 200px;
@@ -166,6 +168,7 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     height: 40.91px;
     left: 758px;
     top: 1862px;
+    transform: rotate(-90.47deg);
 }
 .elva{
     width: 30px;
@@ -280,10 +283,11 @@ src: url(../fonts/Poppins-SemiBold.ttf);
     line-height: 120%;
     color: #676CDB;
 }
-.footer{
-    width: 1366px;
+.container_footer{
+    width: 100%;
     height: 100px;
     background: black;
+    margin-top: 180px;
 }
 .footer_text{
     font-family: 'Poppins';
